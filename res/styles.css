@@ -1,0 +1,83 @@
+/* -- General Style -- */
+body {font-size: 8px; vertical-align: baseline; }
+p {margin: 0; padding: 0; } 
+.fb {font-weight: bold; } .fi {font-style: italic; } .fu {text-decoration: underline; } 
+ul.imBullet {margin: 0 0 0 20px; padding: 0; text-align: left; } ul.imBullet li {vertical-align: middle; }
+.imAlign_left {text-align: left; }
+.imAlign_center {text-align: center; }
+.imAlign_right {text-align: right; }
+.imAlign_justify {text-align: justify; }
+img.imImage {border: 0px; vertical-align: baseline; }
+.imInvisible, h1 {position: absolute; top: -10000px; left: -10000px; }
+.imHidden {display: none; }
+.imClear {clear: left; }
+.imError {padding: 5px; margin: 10px; border: 1px solid #000000; background-color: #FFFFFF; font: 11px Tahoma; text-align: center; line-height: 16pt; }
+#imToolTip {position:absolute; visibility: hidden; padding: 3px; z-index: 1001; }
+#imMailLink {padding-left: 20px; background: url('imemail.gif') no-repeat; }
+#imZIBackg {display: none; position: absolute; text-align: center; width: 100%; background-image: url('imzibackg.png') !important; background-image: url('imblank.gif'); filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="res/imzibackg.png", sizingMethod="scale"); cursor: pointer; }
+#imZIImage {background: #EEEEEE url('imziload.gif') no-repeat center center; border: 1px solid #333333; margin: 0 auto; }
+#imZIImage img {margin: 7px; }
+#imZICaption {font: 11px Tahoma; color: #000000; padding: 0 7px 7px 7px; }
+#imLockTxt {margin-left: 10px; font: 11px Tahoma; color: #000000; min-height: 300px; height: auto !important; height: 300px; }
+#imLockForm {margin: 5px auto; text-align: left; padding: 5px; width: 200px; }
+#imLockAlert {background-color: red; color: white; padding: 0 5px 0 5px; }
+.imLockLabel {display: block; margin-top: 6px; }
+.imLockBtn {font: 11px Tahoma; color: #000000; background-color: #C0C0C0; border: 1px solid #222222; margin: 5px; }
+.imLockFld {font: 11px Tahoma; color: #000000; border: 1px solid #222222; margin: 4px 0; vertical-align: middle; }
+
+/* -- Menu Main Settings -- */
+#imMnMn {padding-top: 11px; }
+#imMnMn ul, #imMnMn ul li {margin: 0; padding: 0; list-style: none; z-index: 1000; cursor: pointer; }
+#imMnMn ul li {position: relative; float: left; padding-bottom: 10px; }
+#imMnMn ul a {display: block; text-decoration: none; width: 120px; height: 22px; }
+
+/* -- Menu Main Images -- */
+#imMnMn ul li a.imMnItm_1 {background: url('immnu_01a.gif') no-repeat top left; }
+#imMnMn ul li:hover a.imMnItm_1, #imMnMn ul li a:hover.imMnItm_1 {background: url('immnu_01b.gif') no-repeat top left; }
+#imMnMn ul li a.imMnItm_2 {background: url('immnu_02a.gif') no-repeat top left; }
+#imMnMn ul li:hover a.imMnItm_2, #imMnMn ul li a:hover.imMnItm_2 {background: url('immnu_02b.gif') no-repeat top left; }
+#imMnMn ul li a.imMnItm_3 {background: url('immnu_03a.gif') no-repeat top left; }
+#imMnMn ul li:hover a.imMnItm_3, #imMnMn ul li a:hover.imMnItm_3 {background: url('immnu_03b.gif') no-repeat top left; }
+#imMnMn ul li a.imMnItm_4 {background: url('immnu_04a.gif') no-repeat top left; }
+#imMnMn ul li:hover a.imMnItm_4, #imMnMn ul li a:hover.imMnItm_4 {background: url('immnu_04b.gif') no-repeat top left; }
+#imMnMn ul li a.imMnItm_5 {background: url('immnu_05a.gif') no-repeat top left; }
+#imMnMn ul li:hover a.imMnItm_5, #imMnMn ul li a:hover.imMnItm_5 {background: url('immnu_05b.gif') no-repeat top left; }
+#imMnMn ul li a.imMnItm_6 {background: url('immnu_06a.gif') no-repeat top left; }
+#imMnMn ul li:hover a.imMnItm_6, #imMnMn ul li a:hover.imMnItm_6 {background: url('immnu_06b.gif') no-repeat top left; }
+#imMnMn a.imMnLv {background-image: url('imiconmenu.gif'); background-position: center right; background-repeat: no-repeat; }
+
+/* -- Menu Level -- */
+#imMnMn ul ul {display: none; position: absolute; top: 0px; left: 120px; }
+#imMnMn ul ul ul {top: 0; left: 119px;}
+#imMnMn ul li:hover li a, #imMnMn ul li.iehover li a, #imMnMn ul li:hover li:hover li a, #imMnMn ul li.iehover li.iehover li a, #imMnMn ul li:hover li:hover li:hover li a, #imMnMn ul li.iehover li.iehover li.iehover li a {padding: 3px; height: auto !important; height: 1%; font: 11px Tahoma; background-color: #FFFFFF; color: #000000; border: 1px solid #000000; filter: progid:DXImageTransform.Microsoft.Alpha(opacity=95); width: 112px; text-align: left; }
+#imMnMn ul li li {padding-bottom: 0; margin-bottom: -1px; }
+#imMnMn ul li:hover li a:hover, #imMnMn ul li:hover li:hover a, #imMnMn ul li.iehover li a:hover, #imMnMn ul li.iehover li.iehover a, #imMnMn ul li:hover li:hover li a:hover, #imMnMn ul li:hover li:hover li:hover a, #imMnMn ul li.iehover li.iehover li a:hover, #imMnMn ul li.iehover li.iehover li.iehover a, #imMnMn ul li:hover li:hover li:hover li a:hover, #imMnMn ul li.iehover li.iehover li.iehover li a:hover {background-color: #598BDD; color: #FFFFFF; }
+#imMnMn ul li:hover ul ul, #imMnMn ul li:hover ul ul ul, #imMnMn ul li.iehover ul ul, #imMnMn ul li.iehover ul ul ul {display: none;}
+#imMnMn ul li:hover ul, #imMnMn ul ul li:hover ul, #imMnMn ul ul ul li:hover ul, #imMnMn ul li.iehover ul, #imMnMn ul ul li.iehover ul, #imMnMn ul ul ul li.iehover ul {display: block;}
+
+/* -- Menu Sub -- */
+#imPageSub {width: 539px; padding-left: 4px; float: right; background: url('imsubmnuline.gif') repeat-y 2px; }
+#imMenuSub {width: 116px; float: left; padding-top: 10px; }
+#imMenuSub ul {list-style: none; margin: 0; padding: 0; border: none; }
+#imMenuSub li.imMenuSubCur, #imMenuSub ul a {height: auto !important; height: 0%; padding: 4px 3px 4px 3px; font: bold 11px Tahoma; color: #FFFFFF; border-bottom: 1px solid #AAAAAA; }
+#imMenuSub li.imMenuSubCur {font-weight: bold; }
+#imMenuSub ul a:link, #imMenuSub ul a:active, #imMenuSub ul a:visited {display: block; text-decoration: none; }
+#imMenuSub ul a:hover, #imMenuSub ul a:focus {background-color: #2C7DCC; color: #FFFFFF; }
+html {scrollbar-face-color:#2E7FCE; scrollbar-arrow-color:#83BEEA; scrollbar-track-color:#E0E0E0; scrollbar-shadow-color:#808080; scrollbar-highlight-color:#FFFFFF; scrollbar-3dlight-color:#E0E0E0; scrollbar-darkshadow-Color:#000000; }
+
+/* -- Texts Style -- */
+h2 {margin: 0px 0px 8px 10px; padding: 2px 0 0 0; font: bold 19px Tahoma; color: #FFFFFF; text-align: left; height: 23px; }
+#imPathTitle {margin: 0px 0px 8px 10px; display: none; }
+.imDefText {padding: 2px 0 0 0; font: 13px Tahoma; color: #000000; text-align: left; height: 17px; }
+.fc0 {color: #000000; }
+#imFooterSiteMap {margin: 8px 0px 0px 10px; padding: 2px 0 0 0; font: 11px Tahoma; color: #FFFFFF; text-align: center; height: 15px; }
+#imFooterSiteMap a:link, #imFooterSiteMap a:active, #imFooterSiteMap a:visited, #imFooterSiteMap a:hover {color: #FFFFFF; text-decoration: none; }
+#imFooterSiteMap a:hover {color: #FFFFFF; text-decoration: underline; }
+#imFooter_L, #imFooter_R {padding: 2px 0 0 0; font: 11px Tahoma; color: #FFFFFF; text-align: left; height: 15px; }
+#imFooter a:link, #imFooter a:visited, #imFooter a:hover, #imFooter a:active {color: #FFFFFF; text-decoration: none;}
+/* -- Links Style -- */
+a.ImLink  {text-decoration:underline; }
+a.ImLink:link {color: #FFFFFF; }
+a.ImLink:visited {color: #FFFFFF; }
+a.ImLink:hover {color: #FFFFFF; }
+

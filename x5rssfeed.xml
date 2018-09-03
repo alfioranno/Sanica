@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<rss version="2.0">
+<channel>
+<title><![CDATA[Corriere della Sera]]></title>
+<link>http://www.corriere.it/rss/homepage.xml</link>
+<description><![CDATA[Ultime News]]></description>
+<image>
+<url>http://www.corriere.it/rss/homepage.xml/images/rssfeed.gif</url>
+<title><![CDATA[Corriere della Sera]]></title>
+<link>http://www.corriere.it/rss/homepage.xml</link>
+</image>
+<language>it</language>
+<lastBuildDate>Mon, 11 May 2009 12:01:59 +0100</lastBuildDate>
+<generator>Incomedia WebSite X5</generator>
+<managingEditor>sanica@sanica.it</managingEditor>
+<webMaster>sanica@sanica.it</webMaster>
+</channel>
+</rss>

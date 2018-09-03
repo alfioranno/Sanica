@@ -1,0 +1,10 @@
+body {margin: 0; padding: 0; background-color: #E0ECF8; background-image: url('bg.jpg'); background-repeat: no-repeat; background-position: center center; background-attachment: fixed; }
+#imSite {width: 800px; margin: 15px auto; text-align: left; }
+#imHeader {height: 150px; background-image: url('top.gif'); background-repeat: no-repeat; background-position: left top; }
+#imBody {}
+#imMenuMain {width: 134px; float: left; padding: 11px 0 0 2px; }
+#imContent {width: 663px; float: left; margin-top: 1px; }
+#imFooter {clear: both; height: 20px; }
+#imFooter_L {margin: 5px 0 0 7px; float: left; }
+#imFooter_R {margin: 5px 7px 0 0; float: right; }
+

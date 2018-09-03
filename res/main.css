@@ -1,0 +1,16 @@
+a.ImLink:link
+{color:#0000FF; text-decoration:underline; }
+a.ImLink:visited
+{color:#C000C0; text-decoration:underline; }
+a.ImLink:hover
+{color:#0000FF; text-decoration:underline; }
+#imTitle
+{font: bold 10pt Arial; color:#000000; ; margin-bottom: 5px}
+.mainMenu
+{position: relative; cursor:pointer; width:120px;padding:3px; background-color: ;font:10pt Tahoma; color:#000000; text-align:left; }
+.footer, a.footer:hover, a.footer:visited, a.footer:link
+{font: 8pt Tahoma
+; text-decoration: none; color:#000000;}
+#imToolTip
+{position:absolute; visibility:hide; z-index:200}
+

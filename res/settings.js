@@ -1,0 +1,22 @@
+mainFntCol = "#000000";
+mainFntOverCol = "#000000";
+mainBackCol = "";
+mainOverCol = "";
+menuType = 1;
+menuWidth = 120;
+childOverTop = 0;
+childOverLeft = 1;
+secondsVisible = 1;
+borWid = 1;
+borCol = "#000000";
+fntCol = "#000000";
+fntOverCol = "#FFFFFF";
+backCol = "#FFFFFF";
+overCol = "#000000";
+fntSiz = "8pt";
+fntSty = "normal";
+fntWeight = "normal";
+fntFam = "Arial";
+opacity = 95;
+imgSrc = "images/ar_menu0.gif";
+
